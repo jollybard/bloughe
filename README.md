@@ -4,10 +4,6 @@
 
 It serves a bunch of .md files in a `date_title.md` format; currently it does this in a not very typesafe way, however.
 
-The default directory is `/srv/blog/`. You can edit the relevant line in `src/Foundation.hs`.
-
-You must also edit the relevant information in `config/keter.yml`.
-
 You can see it live (as of Apr 29 2021) [here](http://bloughe.jollybard.net).
 
 ## Haskell Setup
@@ -36,6 +32,12 @@ stack test --flag bloughe:library-only --flag bloughe:dev
 ```
 
 (Because `yesod devel` passes the `library-only` and `dev` flags, matching those flags means you don't need to recompile between tests and development, and it disables optimization to speed up your test compile times).
+
+## Deployment
+
+Edit `config/keter.yml` and the directory to be served. The default directory is `/srv/blog/`, which you can edit in `src/Foundation.hs`.
+
+Then, run `yesod keter`.
 
 ## Documentation
 
