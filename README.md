@@ -1,6 +1,6 @@
 # Bloughe, a blog system
 
-`Boughe` is a system blogging system written in Haskell/Yesod and meant to be deployed via Keter.
+`Boughe` is a blogging system written in Haskell/Yesod and meant to be deployed via Keter.
 
 It serves a bunch of .md files in a `date_title.md` format; currently it does this in a not very typesafe way, however.
 
