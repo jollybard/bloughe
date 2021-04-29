@@ -4,6 +4,10 @@
 
 It serves a bunch of .md files in a `date_title.md` format; currently it does this in a not very typesafe way, however.
 
+The default directory is `/srv/blog/`. You can edit the relevant line in `src/Foundation.hs`.
+
+You must also edit the relevant information in `config/keter.yml`.
+
 You can see it live (as of Apr 29 2021) [here](http://bloughe.jollybard.net).
 
 ## Haskell Setup
