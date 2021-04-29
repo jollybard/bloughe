@@ -4,7 +4,7 @@
 
 It serves a bunch of .md files in a `date_title.md` format; currently it does this in a not very typesafe way, however.
 
-You can see it live (as of Apr 29 2021) [http://bloughe.jollybard.net](here).
+You can see it live (as of Apr 29 2021) [here](http://bloughe.jollybard.net).
 
 ## Haskell Setup
 
