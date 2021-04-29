@@ -1,0 +1,6 @@
+$if null poasts
+   <p>
+$else
+   <ul>
+      $forall (d, t) <- poasts
+         <li><a href="/poast/#{d}/#{t}">#{d} - #{t}
